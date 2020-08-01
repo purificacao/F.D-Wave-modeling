@@ -1,9 +1,7 @@
 # F.D-Wave-modeling
 This is just a tiny project presenting a wave modeling animation.
 
-\begin{equation}
-\frac{\partial^2 u}{\partial t^2} = c^{2}\left ( \frac{\partial^2 u}{\partial x^2} +\frac{\partial^2 u}{\partial y^2} \right )
-\end{equation}
+![image](https://user-images.githubusercontent.com/32949538/89110093-965c6880-d41d-11ea-827c-cb7279c30380.png)
 
 where $t$ is the time, $u$ is the displacement, $c$ is the wave propagation velocity through the medium, x and y are Cartesian coordinates. The program below shows the waves propagation in a two-dimensional domain, through the numerical solution of the wave equation. The __Finite Difference Method__ in two dimensions with transient term will be used. The domain will be a square with dimensions of 1 m x 1 m, so that: its discretization will be given with:
   
