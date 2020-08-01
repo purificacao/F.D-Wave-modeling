@@ -9,7 +9,7 @@ where _t_ is the time, _u_ is the displacement, _c_ is the wave propagation velo
 • _dt << 0,01s_
  \
  \
-e a variável _u_ será definida no contorno como: \
+and the _u_ variable will be defined with the boundary conditions: \
 • _u(x=0) = sen(10*t)*sen(y*π)$_; \
 • _u(x=1) = 0_; \
 • _u(y=0) = 0_; \
